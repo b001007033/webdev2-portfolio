@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container {
+	width: 100%;
+	margin: auto;
+	
+}
+.container2 {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	top: 550px;
+}
+.container4 {
+	width: 100px;
+	float: left;
+}
+.container5 {
+	width: 90%;
+}
+#grad2 {
+    height: 1490px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: mintcream;
+	font-family: Ariel, serif, sans-serif;
+}
+footer {
+	clear: both;
+	background-color: darkorchid;
+	text-align: center;
+	height: 100px;
+	color: white;
+	position: relative;
+	top: 10px;
+}
+#move {
+	position: relative;
+	top: 520px;
+}
+#rawr {
+	font-size: 50px;
+	position: relative;
+	top: 380px;
+	color: white;
+}
+nav ul {
+	font-family: sans-serif;
+	position: relative;
+	top: -15px;
+    list-style-type: none;
+    padding-left: 200px;
+	height: 38px;
+    background-color: darkorchid;
+
+}
+nav li {
+	display: inline-block;
+}
+#graybar {
+	display: inline-block;
+}
+nav li a {
+    display: inline-block;
+    color: white;
+    padding: 11px 25px;
+    text-decoration: none;
+	font-size: 14px;
+	
+}
+/* setting the color when you hover over a link inside the nav
+ bar to turn with a black background */
+nav li a:hover:not(.active) {
+    background-color: lightblue;
+}
+img a:hover:not(.active) {
+    background-color: lightblue;
+}
+.logo {
+	position: relative;
+	top: 6px;
+	left: 170px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+.logodublin {
+	position: absolute;
+    left: 0px;
+    top: 198px;
+    z-index: -1;
+	font: italic;
+	color: aqua;
+	width: 100%;
+}
+.dani {
+	float: left;
+	width: 100%;
+	max-width: 250px;
+}
+.dani2 {
+	display: block;
+	width: 30%;
+	margin: auto;
+	max-width: 150px;
+}
+.textcontainer {
+	width: 70%;
+	float: left;
+	font-size: 1.6em;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+.textcontainer2 {
+	position: relative;
+	top: 510px;
+	width: 80%;
+	font-size: 1.6em;
+	margin-left: 12%;
+	margin-top: 2%;
+}
+.container3 {
+	position: relative;
+	top: 550px;
+	left: -0.5%;
+	width: 80%;
+	font-size: 1.6em;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+.imgcontainer {
+	width: 20%;
+}
+.cam1 {
+	width: 10%;
+	display: inline-block;
+}
+.cam2 {
+	width: 11%;
+	display: inline-block;
+	margin: auto;
+	position: relative;
+	left: -1%;
+}
+.cam3 {
+	width: 13%;
+	display: inline-block;
+	margin: auto;
+	position: relative;
+	left: -1%;
+}
+.cam4 {
+	width: 13%;
+	display: inline-block;
+	margin: auto;
+	display: block;
+}
+.cam1, .cam2, .cam3 {
+	display: inline-block;
+	margin: auto;
+	padding-left: 17%;
+}
+.size {
+	display: block;
+	width: 85%;
+	background-color: gray;
+	border-radius: 50%;	
+}
+.size2 {
+	display: block;
+	width: 50%;
+	background-color: gray;
+	margin: auto;
+}
+.space1 {
+	position: relative;
+	top: 5px;
+}
+.space2 {
+	position: relative;
+	top: -10px;
+}
+.space3 {
+	position: relative;
+	top: 7px;
+}
+.space4 {
+	position: relative;
+	top: 15px;
+}
+.space5 {
+	position: relative;
+	top: 35px;
+}
+.text1, .text2, .text3 {
+	float: left;
+	padding-right: 10%;
+	position: relative;
+	left: 10%;
+}
+.text4 {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+.move1, .move2, .move3 {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+#style1 {
+    box-sizing: border-box;
+}
+#style2 {
+    box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 40%;
+    padding: 1%; /* Should be removed. Only for demonstration */
+}
+.column2 {
+	float: left;
+    width: 25%;
+}
+.column3 {
+	float: left;
+    width: 33.3%;
+}
+.column4 {
+	float: left;
+    width: 50%;
+}
+.row {
+	padding-left: 15%;
+}
+.row2 {
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row1 {
+	text-align: center;
+}
+.row2 {
+	text-align: center;
+}
+.active {
+    color: black;
+}
